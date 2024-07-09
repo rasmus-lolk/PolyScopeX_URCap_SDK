@@ -39,3 +39,4 @@ jobs:
         name: contribution-samples-urcap
         path: ${{ github.workspace }}/contribution-samples/target/
         overwrite: true
+        compression-level: 0
