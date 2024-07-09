@@ -35,6 +35,7 @@ jobs:
 
     - run:  cd target
     - run:  ls
+      working-directory: target
 
     - name: Archive contribution sample URCap
       uses: actions/upload-artifact@v4
