@@ -33,9 +33,11 @@ jobs:
     - name: Build
       run: npm run build
 
-    - run:  cd target
-    - run:  ls
-      working-directory: target
+    - name: List Files in dist
+      run: ls -R dist
+
+    - name: List Files in target
+      run: ls -R target
 
     - name: Archive contribution sample URCap
       uses: actions/upload-artifact@v4
