@@ -42,6 +42,11 @@ jobs:
     - name: Test
       run: npm run test
 
+    - name: Version
+      run: npm version patch
+
+    - run: echo ${{ steps.Version.outputs.version }}
+
     - name: Archive contribution sample URCap
       uses: actions/upload-artifact@v4
       with:
