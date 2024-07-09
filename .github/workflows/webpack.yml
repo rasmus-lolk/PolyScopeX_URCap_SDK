@@ -38,3 +38,4 @@ jobs:
       with:
         name: contribution-samples-urcap
         path: ${{ github.workspace }}/contribution-samples/target/
+        overwrite: true
