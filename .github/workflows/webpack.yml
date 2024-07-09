@@ -49,7 +49,11 @@ jobs:
       id: version
       run: echo "version='$(npm version patch)'" >> "$GITHUB_OUTPUT"
 
-    - run: echo ${{ steps.version.outputs.version }}
+    - name: Commit & Push changes
+      uses: actions-js/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        message: "New version"
 
     - name: Archive contribution sample URCap
       uses: actions/upload-artifact@v4
