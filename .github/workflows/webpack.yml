@@ -27,3 +27,10 @@ jobs:
         cd contribution-samples
         npm install
         npm run build
+
+    - name: Archive contribution sample URCap
+        uses: actions/upload-artifact@v4
+        with:
+          name: target-urcap
+          path: |
+            target/contribution-samples-1.0.0.urcapx
