@@ -42,5 +42,5 @@ jobs:
     - name: Archive contribution sample URCap
       uses: actions/upload-artifact@v4
       with:
-        name: contribution-samples-1.0.0
+        name: contribution-samples
         path: target/
