@@ -47,10 +47,9 @@ jobs:
 
     - name: Version
       id: version
-      run: |
-        npm version patch
+      run: echo "version='$(npm version patch)'" >> "$GITHUB_OUTPUT"
 
-    - run: echo ${{ steps.version.outputs.* }}
+    - run: echo ${{ steps.version.outputs.version }}
 
     - name: Archive contribution sample URCap
       uses: actions/upload-artifact@v4
