@@ -4,7 +4,13 @@ defaults:
   run:
     working-directory: contribution-samples
 
-on:
+on: 
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: 'Test scenario tags'
+        required: false
+        type: boolean
   push:
     branches: [ "master" ]
     paths:
