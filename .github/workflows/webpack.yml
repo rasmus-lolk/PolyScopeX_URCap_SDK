@@ -37,4 +37,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: contribution-samples-urcap
-        path: ${{ github.workspace }}/contribution-samples/target/contribution-samples-1.0.0.urcapx
+        path: ${{ github.workspace }}/contribution-samples/target/
