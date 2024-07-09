@@ -54,6 +54,7 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         message: "New version"
+        branch: master
 
     - name: Archive contribution sample URCap
       uses: actions/upload-artifact@v4
