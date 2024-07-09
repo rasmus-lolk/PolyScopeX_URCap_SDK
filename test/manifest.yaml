@@ -1,0 +1,10 @@
+metadata:
+  vendorID: test
+  urcapID: test
+  vendorName: Test
+  urcapName: Test
+  version: 1.0.0
+artifacts:
+  webArchives:
+  - id: test
+    folder: test

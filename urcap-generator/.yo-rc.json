@@ -1,0 +1,22 @@
+{
+  "generator-newurcap": {
+    "answers": {
+      "hasProgramNode": true,
+      "hasApplicationNode": true,
+      "hasDocker": false,
+      "hasWeb": true,
+      "vendorName": "Test",
+      "vendorId": "test",
+      "urcapName": "Test",
+      "urcapId": "test",
+      "artifactId": "test",
+      "contribution": "test",
+      "hasSmartSkill": true,
+      "programNodeName": "test-program-node",
+      "applicationNodeName": "test-application-node",
+      "smartSkillName": "test-smart-skill"
+    },
+    "prompted": "false",
+    "contributionType": "Angular"
+  }
+}

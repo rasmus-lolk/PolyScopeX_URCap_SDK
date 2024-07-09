@@ -1,0 +1,30 @@
+{
+  "applicationNodes": [
+    {
+      "translationPath": "assets/i18n/",
+      "behaviorURI": "test-application-node.worker.js",
+      "presenterURI": "main.js",
+      "componentTagName": "test-test-test-application-node"
+    }
+  ],
+  "programNodes": [
+    {
+      "excludeFromToolbox": false,
+      "translationPath": "assets/i18n/",
+      "iconURI": "assets/icons/test-program-node.svg",
+      "behaviorURI": "test-program-node.worker.js",
+      "presenterURI": "main.js",
+      "componentTagName": "test-test-test-program-node"
+    }
+  ],
+  "smartSkills": [
+    {
+      "name": "test-test-test-smart-skill",
+      "iconURI": "assets/icons/test-smart-skill.svg",
+      "presenterURI": "main.js",
+      "componentTagName": "test-test-test-smart-skill",
+      "behaviorURI": "test-smart-skill.worker.js",
+      "translationPath": "assets/i18n/"
+    }
+  ]
+}

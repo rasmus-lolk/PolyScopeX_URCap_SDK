@@ -1,0 +1,22 @@
+{
+  "program": {
+    "tree": {
+      "nodes": {
+        "test-test-test-program-node": "Test Program Node"
+      }
+    }
+  },
+  "application": {
+    "nodes": {
+      "test-test-test-application-node": {
+        "title": "Test Application Node",
+        "supportiveText": "Test Application Node - Supportive Text"
+      }
+    }
+  },
+    "smart_skills": {
+    "test-test-test-smart-skill": {
+      "title": "Test Smart Skill"
+    }
+  }
+}
