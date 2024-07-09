@@ -32,5 +32,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: target-urcap
-        path: |
+        path:
           target/contribution-samples-1.0.0.urcapx
