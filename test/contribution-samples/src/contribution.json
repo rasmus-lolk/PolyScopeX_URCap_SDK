@@ -1,0 +1,46 @@
+{
+  "applicationNodes": [
+    {
+      "translationPath": "assets/i18n/",
+      "behaviorURI": "sample-application-node.worker.js",
+      "presenterURI": "main.js",
+      "componentTagName": "universal-robots-contribution-samples-sample-application-node"
+    }
+  ],
+  "programNodes": [
+    {
+      "excludeFromToolbox": false,
+      "translationPath": "assets/i18n/",
+      "iconURI": "assets/icons/sample-program-node.svg",
+      "behaviorURI": "sample-program-node.worker.js",
+      "presenterURI": "main.js",
+      "componentTagName": "universal-robots-contribution-samples-sample-program-node"
+    }
+  ],
+  "smartSkills": [
+    {
+      "name": "universal-robots-contribution-samples-sample-smart-skill",
+      "iconURI": "assets/icons/sample-smart-skill.svg",
+      "presenterURI": "main.js",
+      "componentTagName": "universal-robots-contribution-samples-sample-smart-skill",
+      "behaviorURI": "sample-smart-skill.worker.js",
+      "translationPath": "assets/i18n/"
+    }
+  ],
+  "operatorScreens": [
+    {
+      "translationPath": "assets/i18n/",
+      "behaviorURI": "sample-operator-screen.worker.js",
+      "presenterURI": "main.js",
+      "componentTagName": "universal-robots-contribution-samples-sample-operator-screen",
+      "configurationComponentTagName": "universal-robots-contribution-samples-sample-operator-screen-configuration"
+    }
+  ],
+  "systemInfoNodes": [
+    {
+      "translationPath": "assets/i18n/",
+      "presenterURI": "main.js",
+      "componentTagName": "universal-robots-contribution-samples-sample-system-info-node"
+    }
+  ]
+}

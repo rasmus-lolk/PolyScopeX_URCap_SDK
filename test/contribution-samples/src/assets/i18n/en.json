@@ -1,0 +1,30 @@
+{
+  "program": {
+    "tree": {
+      "nodes": {
+        "universal-robots-contribution-samples-sample-program-node": "Sample Program Node"
+      }
+    }
+  },
+  "application": {
+    "nodes": {
+      "universal-robots-contribution-samples-sample-application-node": {
+        "title": "Sample Application Node",
+        "supportiveText": "Sample Application Node - Supportive Text"
+      }
+    }
+  },
+    "smart_skills": {
+    "universal-robots-contribution-samples-sample-smart-skill": {
+      "title": "Sample Smart Skill"
+    }
+  },
+  "operator-screen": {
+    "universal-robots-contribution-samples-sample-operator-screen": {
+      "title": "Sample Operator Screen"
+    }
+  },
+  "system-info": {
+    "universal-robots-contribution-samples-sample-system-info-node": "Sample System Info Node"
+  }
+}

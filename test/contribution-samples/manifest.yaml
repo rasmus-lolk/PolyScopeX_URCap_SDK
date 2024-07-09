@@ -1,0 +1,10 @@
+metadata:
+  vendorID: universal-robots
+  urcapID: contribution-samples
+  vendorName: Universal Robots A/S
+  urcapName: Contribution Samples
+  version: 1.0.0
+artifacts:
+  webArchives:
+  - id: contribution-samples
+    folder: contribution-samples
