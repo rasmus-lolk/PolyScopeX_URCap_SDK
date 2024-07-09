@@ -33,14 +33,8 @@ jobs:
     - name: Build
       run: npm run build
 
-    - name: List Files in dist
-      run: ls -R dist
-
-    - name: List Files in target
-      run: ls -R target
-
     - name: Archive contribution sample URCap
       uses: actions/upload-artifact@v4
       with:
-        name: contribution-samples
-        path: ${{ github.workspace }}/contribution-samples/target/
+        name: contribution-samples-urcap
+        path: ${{ github.workspace }}/contribution-samples/target/contribution-samples-1.0.0.urcapx
