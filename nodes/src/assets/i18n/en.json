@@ -1,0 +1,9 @@
+{
+  "program": {
+    "tree": {
+      "nodes": {
+        "robotiq-nodes-test-program-node": "Test Program Node"
+      }
+    }
+  }
+}

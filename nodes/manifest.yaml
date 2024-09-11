@@ -1,0 +1,11 @@
+metadata:
+  vendorID: robotiq
+  urcapID: nodes
+  vendorName: Robotiq
+  urcapName: Nodes
+  version: 1.0.0
+artifacts:
+  webArchives:
+  - id: nodes
+    folder: nodes
+    devUrl: http://host.gateway.ip:4200/

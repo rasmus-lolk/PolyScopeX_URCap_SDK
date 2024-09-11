@@ -2,19 +2,19 @@
   "generator-newurcap": {
     "answers": {
       "hasProgramNode": true,
-      "hasApplicationNode": true,
+      "hasApplicationNode": false,
       "hasDocker": false,
       "hasWeb": true,
-      "vendorName": "Test",
-      "vendorId": "test",
-      "urcapName": "Test",
-      "urcapId": "test",
-      "artifactId": "test",
-      "contribution": "test",
-      "hasSmartSkill": true,
+      "vendorName": "Robotiq",
+      "vendorId": "robotiq",
+      "urcapName": "Nodes",
+      "urcapId": "nodes",
+      "artifactId": "nodes",
+      "contribution": "nodes",
+      "hasSmartSkill": false,
       "programNodeName": "test-program-node",
-      "applicationNodeName": "test-application-node",
-      "smartSkillName": "test-smart-skill"
+      "applicationNodeName": "",
+      "smartSkillName": ""
     },
     "prompted": "false",
     "contributionType": "Angular"

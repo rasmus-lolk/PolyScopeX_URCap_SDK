@@ -1,0 +1,14 @@
+{
+  "applicationNodes": [],
+  "programNodes": [
+    {
+      "excludeFromToolbox": false,
+      "translationPath": "assets/i18n/",
+      "iconURI": "assets/icons/test-program-node.svg",
+      "behaviorURI": "test-program-node.worker.js",
+      "presenterURI": "main.js",
+      "componentTagName": "robotiq-nodes-test-program-node"
+    }
+  ],
+  "smartSkills": []
+}
