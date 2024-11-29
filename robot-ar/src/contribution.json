@@ -1,0 +1,12 @@
+{
+  "applicationNodes": [
+    {
+      "translationPath": "assets/i18n/",
+      "behaviorURI": "robot-ar.worker.js",
+      "presenterURI": "main.js",
+      "componentTagName": "baggi97-robot-ar-robot-ar"
+    }
+  ],
+  "programNodes": [],
+  "smartSkills": []
+}

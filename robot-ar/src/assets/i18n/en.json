@@ -1,0 +1,10 @@
+{
+  "application": {
+    "nodes": {
+      "baggi97-robot-ar-robot-ar": {
+        "title": "Robot Ar",
+        "supportiveText": "Robot Ar - Supportive Text"
+      }
+    }
+  }
+}

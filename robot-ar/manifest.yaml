@@ -1,0 +1,11 @@
+metadata:
+  vendorID: "baggi97"
+  urcapID: "robot-ar"
+  vendorName: "baggi97"
+  urcapName: "robot-ar"
+  version: 1.0.0
+artifacts:
+  webArchives:
+  - id: "robot-ar"
+    folder: "robot-ar"
+    devUrl: "http://host.gateway.ip:4200/baggi97/robot-ar/robot-ar/"
